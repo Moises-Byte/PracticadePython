@@ -20,6 +20,13 @@ def ejercicio_if3():
     c = float(input("Ingrese el tercer número: "))
     print("El mayor es:", max(a, b, c))
 
+def ejercicio_if4():
+    año = int(input("Ingrese un año: "))
+    if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+        print("Es un año bisiesto.")
+    else:
+        print("No es bisiesto.")
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if3()  
+    ejercicio_if4()  
