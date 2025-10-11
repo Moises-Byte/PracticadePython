@@ -27,6 +27,14 @@ def ejercicio_if4():
     else:
         print("No es bisiesto.")
 
+def ejercicio_if5():
+    letra = input("Ingrese una letra: ").lower()
+    if letra in "aeiou":
+        print("Es una vocal.")
+    else:
+        print("Es una consonante.")
+
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if4()  
+    ejercicio_if5()  
