@@ -14,6 +14,12 @@ def ejercicio_if2():
     else:
         print("El número es impar.")
 
+def ejercicio_if3():
+    a = float(input("Ingrese el primer número: "))
+    b = float(input("Ingrese el segundo número: "))
+    c = float(input("Ingrese el tercer número: "))
+    print("El mayor es:", max(a, b, c))
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if2()  
+    ejercicio_if3()  
