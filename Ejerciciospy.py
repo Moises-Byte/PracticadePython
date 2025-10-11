@@ -7,6 +7,13 @@ def ejercicio_if1():
     else:
         print("El número es cero.")
 
+def ejercicio_if2():
+    num = int(input("Ingrese un número: "))
+    if num % 2 == 0:
+        print("El número es par.")
+    else:
+        print("El número es impar.")
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if1()  
+    ejercicio_if2()  
