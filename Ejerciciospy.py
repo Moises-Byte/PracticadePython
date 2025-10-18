@@ -45,8 +45,15 @@ def ejercicio_if6():
             return
     print("Es primo.")
 
+def ejercicio_if7():
+    año = int(input("Ingrese su año de nacimiento: "))
+    if 1900 < año < 2025:
+        print("Año válido.")
+    else:
+        print("Año no válido.")
+
 
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if6()  
+    ejercicio_if7()  
