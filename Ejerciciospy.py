@@ -59,8 +59,22 @@ def ejercicio_if8():
     else:
         print("No es múltiplo de 5 y 7.")
 
+def ejercicio_if9():
+    calificacion = int(input("Ingrese la calificación (0-100): "))
+    if calificacion >= 90:
+        print("A")
+    elif calificacion >= 80:
+        print("B")
+    elif calificacion >= 70:
+        print("C")
+    elif calificacion >= 60:
+        print("D")
+    else:
+        print("F")
+
+
 
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if8()  
+    ejercicio_if9()  
