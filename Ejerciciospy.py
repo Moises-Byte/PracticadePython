@@ -85,7 +85,14 @@ def ejercicio_while11():
         i += 1
     print()
 
+def ejercicio_while12():
+    n = int(input("Ingrese un número: "))
+    i = 1
+    while i <= n:
+        print(i, end=" ")
+        i += 1
+    print()
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if11()  
+    ejercicio_while12()  
