@@ -78,8 +78,14 @@ def ejercicio_if10():
     total = precio - (precio * descuento / 100)
     print("Precio final:", total)
 
+def ejercicio_while11():
+    i = 1
+    while i <= 20:
+        print(i, end=" ")
+        i += 1
+    print()
 
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if10()  
+    ejercicio_if11()  
