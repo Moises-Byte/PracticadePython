@@ -34,7 +34,19 @@ def ejercicio_if5():
     else:
         print("Es una consonante.")
 
+def ejercicio_if6():
+    num = int(input("Ingrese un número: "))
+    if num <= 1:
+        print("No es primo.")
+        return
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            print("No es primo.")
+            return
+    print("Es primo.")
+
+
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if5()  
+    ejercicio_if6()  
