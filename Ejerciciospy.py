@@ -93,7 +93,7 @@ def ejercicio_while12():
         i += 1
     print()
 
-def ejercicio_while3():
+def ejercicio_while13():
     suma = 0
     while True:
         num = int(input("Ingrese un número positivo (negativo para salir): "))
@@ -102,6 +102,15 @@ def ejercicio_while3():
         suma += num
     print("Suma total:", suma)
 
+def ejercicio_while14():
+    n = int(input("Ingrese un límite: "))
+    a, b = 0, 1
+    print("Serie Fibonacci:", end=" ")
+    while a <= n:
+        print(a, end=" ")
+        a, b = b, a + b
+    print()
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_while13()  
+    ejercicio_while14()  
