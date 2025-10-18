@@ -72,9 +72,14 @@ def ejercicio_if9():
     else:
         print("F")
 
+def ejercicio_if10():
+    precio = float(input("Ingrese el precio del artículo: "))
+    descuento = float(input("Ingrese el porcentaje de descuento: "))
+    total = precio - (precio * descuento / 100)
+    print("Precio final:", total)
 
 
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if9()  
+    ejercicio_if10()  
