@@ -52,8 +52,15 @@ def ejercicio_if7():
     else:
         print("Año no válido.")
 
+def ejercicio_if8():
+    num = int(input("Ingrese un número: "))
+    if num % 5 == 0 and num % 7 == 0:
+        print("Es múltiplo de 5 y 7.")
+    else:
+        print("No es múltiplo de 5 y 7.")
+
 
 
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_if7()  
+    ejercicio_if8()  
