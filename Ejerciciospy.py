@@ -111,6 +111,13 @@ def ejercicio_while14():
         a, b = b, a + b
     print()
 
+def ejercicio_while15():
+    suma = 0
+    while suma <= 100:
+        num = int(input("Ingrese un número: "))
+        suma += num
+    print("Suma final:", suma)
+
 #Esta parte es para ejecutar los codigos lo busque porque normalmenteno me dejo
 if __name__ == "__main__": 
-    ejercicio_while14()  
+    ejercicio_while15()  
